@@ -1,0 +1,55 @@
+# Notes_for_html
+#Learn from freeCodeCamp: learn HTML by building a cat photo app
+1.TEXT
+<h1> to <h6>, </h1> to </h6>| elements: used to signify the importance of content. 
+  Priority: <h1> > <h6>
+<p></p>  | elements: create a paragraph of text.
+<!-- xxxxx --> |  elements: add comments without affecting the browser display.
+
+
+2. ACT
+nest | terms: put A into B--> A was nested.
+  A, B are all elements
+  2 spaces in the front of A, just like:
+   <B>
+   ss<A></A>
+   </B>
+<section></section> | elements: set content apart from future content.
+<main></main> | elements: help the HTML easier to read and more accessible to search by engines.
+<form></form>
+action="(link)" | attributes: send <form></form> to the link.
+<input> | elements: make a blank that can write something in.
+type="text/email/number" | attributes: allow the <input> blank only access to certain type of answers.
+name="" | attributes: give the data collected by <form></form> a name.
+placeholder="" | attributes: give a hint on what to write.
+required | attributes
+<button>xxx</button> | elements: create a button.
+type="xxx" | attributes: make the text xxx associated with the button.
+
+3. IMAGE
+<img> | elements: add images.
+⭐src="(image's URL)" | attributes: add images.
+alt="(text)" | attributes: display if the image fails to load.
+<figure></figure> | elements: images can be nested and then associated with a caption. 
+<figcaption></figcaption> |elements: texts can be nested and then associated with the image.
+
+4. LINK
+<a></a> | elements: between can add comments or images which will be hyperlinks.
+href="(link)" | attributes: lead to the link.
+target="_blank" | attributes: open the link in a new tab.
+
+
+5. DECORATION
+<ul></ul> | elements: nest <ul></ul>, list items unorderedly by black points.
+<li></li> | elements: nest <ul></ul>, list items orderedly by numbers. 
+<li></li> | elements: each item should nest in one pair of the tags.
+
+6. FONT
+<em></em> | elements: italic.
+<strong></strong> | elements: bold.
+
+
+   
+
+
+  
