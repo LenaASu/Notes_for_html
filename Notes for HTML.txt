@@ -25,6 +25,11 @@ placeholder="" | attributes: give a hint on what to write.
 required | attributes
 <button>xxx</button> | elements: create a button.
 type="xxx" | attributes: make the text xxx associated with the button.
+type="radio" | attribute: create a white point which can be chosen.
+<label></label> | elements: associate the <input> and the text behind.
+  <label><input type="radio">xxx</label>: ⚪xxx
+id="" | attributes: make the xxx special and xxx must be unique for the entire page.
+  <input type="radio" id="xxx">xxx: ⚪xxx
 
 3. IMAGE
 <img> | elements: add images.
